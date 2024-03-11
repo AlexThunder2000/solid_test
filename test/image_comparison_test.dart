@@ -27,4 +27,17 @@ void main() {
 
     expect(result.error, true);
   });
+
+  test(
+      'Comparing different images with the same dimensions should return a '
+      'difference result greater than 0', () async {
+    final imageData1 =
+        await File('test/resources/test_image_1.png').readAsBytes();
+    final imageData2 =
+        await File('test/resources/test_image_3.png').readAsBytes();
+    final result = await compareImagesInIsolate(
+        CompareImagesParams(imageData1, imageData2));
+
+    expect(result.differencePercent, greaterThan(0.0));
+  });
 }
