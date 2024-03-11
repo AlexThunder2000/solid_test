@@ -10,6 +10,7 @@ The Image Comparison App is a Flutter application designed to compare two images
 * Pixel-by-Pixel Comparison: The app compares the images pixel by pixel to find any differences.
 * Visual Difference: Differences between the images are highlighted and displayed on the screen.
 * No External Libraries for Comparison: The comparison logic is implemented natively, without using any third-party libraries specifically for the comparison process.
+* Online Demo Available: Try out the app without installing it using the online demo. https://solid-image-comparison-t-f8e43.web.app
 
 ## Getting Started
 To get started with the Image Comparison App, follow these steps:
@@ -21,10 +22,10 @@ To get started with the Image Comparison App, follow these steps:
 
 ### Installation
 1. Clone the repository to your local machine:
-`git clone https://github.com/yourgithub/image_comparison_app.git`
+`git clone https://github.com/AlexThunder2000/solid_test.git`
 
 2. Navigate to the project directory:
-`cd image_comparison_app`
+`cd %name_of_app%`
 
 3. Install the dependencies:
 `flutter pub get`
