@@ -11,7 +11,7 @@ The Image Comparison App is a Flutter application designed to compare two images
 * Visual Difference: Differences between the images are highlighted and displayed on the screen.
 * No External Libraries for Comparison: The comparison logic is implemented natively, without using any third-party libraries specifically for the comparison process.
 * Online Demo Available: Try out the app without installing it using the online demo.
- https://solid-image-comparison-t-f8e43.web.app
+* https://solid-image-comparison-t-f8e43.web.app
 
 ## Getting Started
 To get started with the Image Comparison App, follow these steps:
